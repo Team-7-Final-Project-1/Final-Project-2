@@ -1,0 +1,234 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    font-family: 'Montserrat',sans-serif;
+    overflow-x: hidden;
+}
+
+/* about */
+.about{
+    width: 100%;
+    height: 550px;
+    margin: 10px;
+    display: flex;
+    
+}
+.kiri{
+    margin: 40px;
+    margin-left: 80px;
+    padding: 20px;
+    padding-top: 60px;
+    width: 400px;
+    height: 420px;
+    color: rgb(24, 24, 129);
+    
+}
+.kanan{
+    margin: 40px;
+    padding: 30px;
+    width: 540px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 251);
+    border-color: black;
+    border-radius: 40px;
+    color: rgb(24, 24, 129);
+}
+
+.isi{
+    padding: 15px;
+    margin: 10px;
+    width: 220px;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+}
+.icon{
+    font-size: 25px;
+    color: rgb(24, 24, 129);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(24, 24, 129);
+
+}
+.daily{
+    font-size: 10px;
+    margin-left: 10px;
+    
+}
+.daily p{
+    margin: 0;
+}
+.atas{
+    display: flex;
+}
+.bawah {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.bawah a{
+    display: flex;
+    text-decoration: none;
+}
+.bawah .item {
+    font-size: 12px;
+    color: rgb(24, 24, 129);
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 255, 255);
+}
+.item:hover{
+    background-color: white;
+}
+
+/* pricing */
+
+.prising{
+    margin: 20px;
+    padding: 20px;
+    color: rgb(24, 24, 129);
+}
+
+.judul{
+    text-align: center;
+}
+
+.isiprising {
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    background-color: rgb(238, 238, 251);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box span{
+    margin: 30px;
+    font-size: 25px;
+    
+}
+.box i{
+    font-size: 70px;
+}
+.box .klik {
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box a {
+    text-decoration: none;
+}
+.klik:hover{
+    background-color: rgb(24, 24, 129);
+    color: white;
+}
+.boxtengah{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    background-color: white;
+    border: 5px solid rgb(24, 24, 129);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxtengah span{
+    margin: 30px;
+    font-size: 25px;
+    
+}
+.boxtengah i{
+    font-size: 70px;
+}
+.boxtengah .klik {
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    background-color: white;
+    border: 3px solid rgb(24, 24, 129);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxtengah a {
+    text-decoration: none;
+}
+.boxtengah .klik:hover{
+    background-color:rgb(24, 24, 129) ;
+}
+
+@media (max-width:880px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .kanan{
+        margin-top: 0;
+    }
+    .kiri{
+        height: 330px;
+        margin-top: 0px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+       
+    }
+    .isiprising{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 576px){
+    .kiri{
+        width: 80%;
+        margin: 20px;
+        padding-top: 10px;
+    }
+    .kanan{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
