@@ -1,0 +1,357 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Nunito';
+    overflow-x: hidden;
+}
+
+/* about */
+.about{
+    width: 100%;
+    height: 550px;
+    margin: 10px;
+    display: flex;
+    
+}
+.kiri{
+    margin: 40px;
+    margin-right: 70px;
+    padding: 20px;
+    padding-top: 60px;
+    width: 390px;
+    height: 420px;
+    color: #234CAD;
+    
+}
+
+.kiri span {
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.kiri p{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+
+}
+
+.get{
+    width: 200px;
+    height: 65px;
+    border-radius: 32.5px;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    border: 2px solid #234CAD;
+    cursor: pointer;
+    color: #234CAD;
+    background-color: white;
+}
+.get:hover{
+    background-color: #234CAD;
+    color: white;
+}
+
+.kanan{
+   
+    margin: 10px;
+    padding: 80px;
+    width: 575px;
+    height: 575px;
+    background-color: #F2F6FF;
+    border-color: black;
+    border-radius: 60px;
+    color: #234CAD;
+    overflow: hidden;
+}
+
+.satu{
+    display: inline-flex;
+    margin-left: 12px;
+   
+}
+.dua {
+    display: inline-flex;
+    margin-left: 12px;
+}
+.tiga{
+    display: inline-flex;
+    margin-left: 12px;
+}
+
+.isi{
+    padding: 12px;
+    margin: 13px;
+    width: 276px;
+    height: 160px;
+    background-color: white;
+    border-radius: 25px;
+}
+.icon{
+    font-size: 21px;
+    color: #234CAD;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.6px solid #234CAD;
+
+}
+.daily{
+    margin-left: 20px;
+    margin-top: 5px;
+    
+}
+
+.daily p{
+    margin-top: 5px;
+    font-size: 12px;
+    font-style: normal;
+}
+.daily span{
+    font-size: 16px;
+    
+}
+.atas{
+    display: flex;
+    padding: 15px;
+}
+.bawah {
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.bawah a{
+    display: flex;
+    text-decoration: none;
+}
+.bawah .item {
+    font-size: 10px;
+    color: #234CAD;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F6FF;
+}
+.item:hover{
+    background-color: white;
+}
+
+/* pricing */
+
+.conten2{
+    margin-top: 100px;
+}
+
+.prising{
+    margin: 20px;
+    padding: 20px;
+    color: #234CAD;
+}
+
+.judul{
+    text-align: center;
+    height: 100px;
+}
+
+.prising .judul span{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.prising .judul p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+   
+}
+
+.isiprising {
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 380px;
+    height: 380px;
+    margin: 10px;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box span{
+    margin: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+.box i{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 48px;
+}
+.box .klik {
+    width: 274px;
+    height: 75px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 37.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #234CAD;
+}
+.box a {
+    text-decoration: none;
+}
+.klik:hover{
+    background-color: #234CAD;
+    color: white;
+}
+.boxtengah{
+    width: 380px;
+    height: 380px;
+    margin: 10px;
+    background-color: white;
+    border: 3px solid #234CAD;
+    border-radius: 60px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxtengah span{
+    margin: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+.boxtengah i{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 48px;
+}
+.boxtengah .klik {
+    width: 274px;
+    height: 75px;
+    margin: 10px;
+    background-color: white;
+    border: 3px solid #234CAD;
+    border-radius: 37.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #234CAD;
+}
+.boxtengah a {
+    text-decoration: none;
+}
+.boxtengah .klik:hover{
+    background-color:#234CAD ;
+    color: white;
+}
+
+@media (max-width:880px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .kanan{
+        margin: 10px;
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 100%;
+    }
+    .kiri{
+        height: 330px;
+        margin-top: 0px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+       
+    }
+    .isiprising{
+        flex-wrap: wrap;
+    }
+    .isiprising .box {
+        margin-top: 30px;
+    }
+    .isiprising .boxtengah {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 576px){
+    .kiri{
+        width: 80%;
+        margin: 20px;
+        padding-top: 10px;
+    }
+    .kanan{
+        width: 95%;
+        height: 100%;
+       
+    }
+    .kanan .satu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .kanan .dua {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .kanan .tiga {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .isiprising{
+        margin-top: 50px;
+    }
+}
