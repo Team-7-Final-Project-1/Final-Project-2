@@ -9,6 +9,7 @@ body {
 
 /* Navbar Start */
 
+
 .navbar .fa-solid {
     line-height: 50px;
     color: #234CAD;
@@ -138,6 +139,7 @@ body {
 
 .sideRight {}
 
+
 .box1 {
     width: 75px;
     height: 75px;
@@ -145,6 +147,7 @@ body {
     border-radius: 20px;
     margin-top: 36px;
 }
+
 
 .box2 {
     width: 350px;
@@ -207,6 +210,10 @@ body {
     margin-top: -200px;
 }
 
+.hover:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 /* Banner End */
 
 /* Cards Start */
